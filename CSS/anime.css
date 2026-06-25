@@ -1,0 +1,93 @@
+/* LOGO NAVBAR */
+.logo {
+  width: 180px;
+  height: auto;
+  object-fit: contain;
+}
+.anime-card {
+  display: flex;
+  gap: 20px;
+  background: #f4f4f4;
+  margin: 30px 0;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.anime-card img {
+  width: 220px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.anime-info h2 {
+  margin-top: 0;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .anime-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .anime-card img {
+    width: 60%;
+  }
+}
+/* IMAGE À CÔTÉ DU H1 */
+.page-title {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.title-img {
+  width: 80px;
+  height: auto;
+  transition: transform 0.3s ease;
+  flex-shrink: 0;
+}
+
+.page-title:hover .title-img {
+  transform: rotate(-5deg) scale(1.05);
+}
+.filters {
+  display: flex;
+  gap: 15px;
+  margin: 30px 0;
+}
+
+.filters button {
+  padding: 10px 18px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  background: #ddd;
+  font-weight: bold;
+}
+
+.filters button.active {
+  background: #ffcc00;
+  color: #000;
+}
+
+.filters button:hover {
+  transform: scale(1.05);
+}
+
+body {
+  background-image: url("../images/backgrounds/bleu.png");
+  background-size: cover;      /* couvre tout l’écran */
+  background-position: center; /* centré */
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* effet parallax léger */
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}

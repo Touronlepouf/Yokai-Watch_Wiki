@@ -1,0 +1,256 @@
+.navbar-brand {
+  font-size: 1.2rem;
+}
+
+.nav-link {
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #ffd700 !important; /* jaune Yo-kai */
+}
+ /* Header stylé (PC + mobile) */
+.navbar {
+  padding: 15px 20px;
+}
+
+/* LOGO NAVBAR */
+.logo {
+  width: 180px;
+  height: auto;
+  object-fit: contain;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
+/* Responsive mobile */
+@media (max-width: 768px) {
+  .logo {
+    height: 60px;            /* taille mobile */
+  }
+}
+.filter-btn.active {
+  background-color: #0d6efd;
+  color: white;
+}
+.stat {
+  margin-bottom: 6px;
+}
+
+.stat-label {
+  font-size: 0.8rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+
+.stat-bar {
+  height: 8px;
+  background: #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.stat-fill {
+  height: 100%;
+  border-radius: 10px;
+}
+
+/* couleurs */
+.hp { background-color: #3ce753; }
+.atk { background-color: #f31212; }
+.def { background-color: #3498db; }
+.spd { background-color: #f3b712; }
+.spt { background-color: darkorchid; }
+
+body {
+  background:
+    radial-gradient(circle at top, #7ec8ff 0%, #e6f6ff 40%, #ffffff 70%);
+  background-attachment: fixed;
+  font-family: "Segoe UI", sans-serif;
+}
+.card {
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 20px 35px rgba(0,0,0,0.25);
+}
+.yokai-img {
+  width: 100%;
+  max-height: 140px;
+  object-fit: contain;
+  margin-bottom: 10px;
+  filter: drop-shadow(0 6px 8px rgba(0,0,0,0.3));
+}
+/* Base */
+.card {
+  border: 2px solid transparent;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Mignon 💖 */
+.tribe-mignon {
+  border-color: #ff6fae;
+  box-shadow: 0 0 12px rgba(255, 111, 174, 0.5);
+}
+
+/* Vaillant 🔥 */
+.tribe-vaillant {
+  border-color: #ff4c4c;
+  box-shadow: 0 0 12px rgba(255, 76, 76, 0.5);
+}
+
+/* Costaud 💪 */
+.tribe-costaud {
+  border-color: #ff8c00;
+  box-shadow: 0 0 12px rgba(255, 140, 0, 0.5);
+}
+
+/* Sombre 🌑 */
+.tribe-sombre {
+  border-color: #6b4f9c;
+  box-shadow: 0 0 12px rgba(107, 79, 156, 0.6);
+}
+
+/* Sinistre 👁️ */
+.tribe-sinistre {
+  border-color: #4a0543;
+  box-shadow: 0 0 12px rgba(74, 5, 67, 0.6);
+}
+
+/* Enma 👑 */
+.tribe-enma {
+  border-color: gold;
+  box-shadow: 0 0 16px rgba(255, 215, 0, 0.8);
+}
+
+/* Cyborg 🤖 */
+.tribe-cyborg {
+  border-color: #00c8ff;
+  box-shadow: 0 0 12px rgba(0, 200, 255, 0.6);
+}
+
+/* Insaisissable 💨 */
+.tribe-insaisissable {
+  border-color: #7fffd4;
+  box-shadow: 0 0 12px rgba(127, 255, 212, 0.6);
+}
+
+/* Bienveillant 🌿 */
+.tribe-bienveillant {
+  border-color: #4caf50;
+  box-shadow: 0 0 12px rgba(76, 175, 80, 0.6);
+}
+
+/* Mystérieux 🌀 */
+.tribe-mysterieux {
+  border-color: #9c27b0;
+  box-shadow: 0 0 12px rgba(156, 39, 176, 0.6);
+}
+
+/* Perfide 🐍 */
+.tribe-perfide {
+  border-color: #170627;
+  box-shadow: 0 0 12px rgba(23, 6, 39, 0.6);
+}
+.card:hover {
+  transform: translateY(-6px) scale(1.02);
+}
+.tribe-icon {
+  width: 32px;
+  height: 32px;
+  display: block;
+  margin: 6px auto 10px;
+}
+.tribe-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.filter-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: none;
+  background: #222;
+  color: white;
+  cursor: pointer;
+}
+
+.filter-btn.active {
+  outline: 2px solid gold;
+}
+
+.tribe-btn-icon {
+  width: 18px;
+  height: 18px;
+}
+.rank-img {
+  width: 40px;
+  height: auto;
+}
+
+.card {
+  position: relative;
+}
+.rank-container {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.rank-img {
+  width: 36px;
+}
+.rarity-img {
+  width: 50px;
+  height: auto;
+}
+.rarity-container {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+body {
+  background-image: url("../images/backgrounds/wallpaper.png");
+  background-size: cover;      /* couvre tout l’écran */
+  background-position: center; /* centré */
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* effet parallax léger */
+}
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}
+#loader {
+  position: fixed;
+  inset: 0;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  transition: opacity 0.5s ease;
+}
+
+#loader img {
+  width: 120px;
+}
+
+#loader.hidden {
+  opacity: 0;
+  pointer-events: none;
+}

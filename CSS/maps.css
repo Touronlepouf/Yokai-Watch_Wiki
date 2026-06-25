@@ -1,0 +1,140 @@
+/* LOGO NAVBAR */
+.logo {
+  width: 180px;
+  height: auto;
+  object-fit: contain;
+}
+
+/* CONTENEUR */
+#map-container{
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+/* IMAGE À CÔTÉ DU H1 */
+.page-title {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  max-width: 1250px;
+  margin: auto;
+  padding: 20px;
+}
+
+.title-img {
+  width: 80px;
+  height: auto;
+  transition: transform 0.3s ease;
+  flex-shrink: 0;
+}
+
+.page-title:hover .title-img {
+  transform: rotate(-5deg) scale(1.05);
+}
+
+.filters {
+  display: flex;
+  gap: 15px;
+  max-width: 1250px;
+  margin: auto;
+  padding: 20px;
+}
+
+.filters button {
+  padding: 10px 18px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  background: #ddd;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+
+.filters button.active {
+  background: #ffcc00;
+  color: #000;
+}
+
+/* CARTE MAP */
+
+.map-card {
+  display: flex;
+  gap: 20px;
+  background: #f4f4f4;
+  margin: 30px auto;
+  border-radius: 30px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  overflow: hidden; /* ← au lieu de visible */
+
+  max-width: 1250px;
+  padding: 20px;
+}
+
+.map-card:hover{
+  transform: scale(1.02);
+}
+
+/* IMAGE */
+.map-img {
+  width: 200px;
+  height: auto;
+  object-fit: contain;
+  flex-shrink: 0;
+  display: block;
+
+  border-radius: 300px; 
+}
+
+/* INFOS */
+.map-info {
+  padding: 20px;
+}
+
+.map-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.map-info li {
+  margin-bottom: 6px;
+}
+
+/* DESCRIPTION */
+.map-description{
+  margin-top:10px;
+  font-size:14px;
+  color:#444;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+
+  .map-card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .map-img {
+    width: 70%;
+  }
+
+}
+
+/* BACKGROUND */
+body {
+  background-image: url("../images/backgrounds/bleu.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* FOOTER */
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}

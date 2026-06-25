@@ -1,0 +1,73 @@
+[
+  {
+    "id": 1,
+    "title": "Yo-kai Watch",
+    "type": "serie",
+    "release": "Il était diffusé pour la première fois le 8 janvier 2014 au Japon, le 5 octobre 2015 aux USA et en printemps 2016 en Europe.",
+    "seasons": 3,
+    "countries": ["Japon", "Europe", "USA"],
+    "description": "Nous suivons les aventures de Nathan Adams un enfant dit banal jusqu'au jour où il découvre la Yo-kai Watch, une montre lui permettant de voir les Yo-kai, à l'aide de Whisper son guide Yo-kai, Nathan va tenter de résoudre les tracas causés par les Yo-kai dans Granval-Sur-Mer.",
+    "image": "Yo-kai_Watch_anime.webp"
+  },
+  {
+    "id": 2,
+    "title": "Yo-kai Watch: Le Film",
+    "type": "film",
+    "release": "Il était sorti le 20 décembre 2014 au Japon, mais ne connu pas de sorti au cinéma dans les autres pays: il était disponible néanmoins sur les chaînes enfant telles que Gulli en France ou Disney XD aux États-Unis en 2015.",
+    "duration": "1h 37min",
+    "countries": ["Japon", "Europe", "USA"],
+    "description": "Un beau matin en été Nathan Adams se réveille totalement amnésique et ne se souvient plus de ses amis Yo-kai du à la disparition de sa montre à cause de Laure et Marge. Par la suite un nombre incalculable de Yo-kai malveillants envahissent Granval-Sur-Mer, Nathan va devoir retrouver la mémoire et sauver la ville avec l'aide de ses amis.",
+    "image": "Yokai_Watch_Le_Film.webp"
+  },
+  {
+    "id": 3,
+    "title": "Yo-Kai Watch the Movie 2, King Enma and the 5 Stories, Nyan!",
+    "type": "film",
+    "release": "il était sorti le 19 décembre 2015 au Japon",
+    "duration": "1 h 34min",
+    "countries": ["Japon"],
+    "description": "L'histoire se compose de cinq courts métrages d'animation distincts, chacun mettant en scène différents personnages (dont le seigneur Enma) et situations dans l'univers de Yo-Kai Watch. Les histoires incluent des aventures comiques, des rencontres avec de nouveaux Yo-Kai, et des leçons sur l'amitié et la compréhension des autres.",
+    "image": "Yo-Kai_Watch_the_Movie_2_King_Enma_and_the_5_Stories,_Nyan!.webp"
+  },
+  {
+    "id": 4,
+    "title": "Yokai Wacth The Movie A Whale of Two Worlds",
+    "type": "film",
+    "release": "il était sorti le 17 décembre 2016 au Japon",
+    "duration": "1 h 39min",
+    "countries": ["Japon"],
+    "description": "Nathan, Whisper et Jibanyan découvrent l’existence d’une mystérieuse baleine volante géante qui apparaît soudainement dans le ciel. Leur enquête les entraîne dans une aventure hors du commun où ils basculent entre le monde réel et un monde Yo-kai alternatif, appelé le Double Monde. Dans ce monde étrange, les règles sont différentes, certains personnages ont des versions alternatives, et une menace inconnue met en danger l’équilibre entre les deux dimensions. Nathan devra faire preuve de courage et comprendre ce que signifie vraiment être lié aux Yo-kai pour empêcher une catastrophe majeure.",
+    "image": "YO-KAI_WATCH_The_Movie_A_Whale_of_Two_Worlds.webp"
+  },
+ 
+  {
+    "id": 5,
+    "title": "Yo-kai Watch Shadowside: Oni-ō no Fukkatsu",
+    "type": "film",
+    "release": "il était sorti le 16 décembre 2017 au Japon",
+    "duration": "1 h 40min",
+    "countries": ["Japon"],
+    "description": "Yo-kai Watch Shadowside : La Résurrection du Roi Démon est le quatrième film de la franchise Yo-kai Watch. L’histoire se déroule après les événements de la série originale et introduit un ton plus sombre et mature. Un virus Yo-kai malveillant, l’Onimaro, commence à infecter les humains, les transformant en démons Kaodeka Oni et semant le chaos dans la ville. Pour y faire face, une nouvelle génération de héros, dont Nastume Adams, Touma Tsukinami et Akinori Arihoshi, utilise des Yo-kai Watches spéciales capables d’invoquer des Yo-kai sous leurs formes 'Lightside' (lumineuse) et 'Shadowside' (obscure).",
+    "image": "Yo-kai_Watch_Movie_Shadowside.webp"
+  },
+  {
+    "id": 6,
+    "title": "Yo-kai Watch Shadowside",
+    "type": "serie",
+    "release": "la série était sorti au Japon le 13 avril 2018 et la diffusion s'est arrétée en 29 mars 2019",
+    "seasons": 1,
+    "countries": ["Japon"],
+    "description": "'Yo-kai Watch Shadowside' est la suite animée qui prend place après les événements du film 'Yo-kai Watch Shadowside : La Résurrection du Roi Démon'. La série se déroule 30 ans après la série originale et suit les aventures de Natsume Amano, la fille de Nate (Keita) et Katie (Fumika), ainsi que ses amis Touma Tsukinami et Akinori Arihoshi. Ensemble, ils dirigent une agence de détectives spécialisée dans les affaires impliquant les Yo-kai. La série explore des thèmes plus sombres et matures, avec des Yo-kai plus complexes et des intrigues plus profondes, tout en conservant l'humour et le charme qui ont fait le succès de la franchise Yo-kai Watch.",
+    "image": "ykw_shadowside.webp"
+  },
+  {
+    "id": 7,
+    "title": "Yo-kai Watch Forever Friends",
+    "type": "film",
+    "release": "il était sorti le 14 décembre 2018 au Japon",
+    "duration": "1 h 40min",
+    "countries": ["Japon"],
+    "description": "Yo-kai Watch : Forever Friends est le cinquième film de la franchise. L’histoire se déroule 50 ans avant les événements de la série principale et suit Shin, un jeune garçon pauvre mais joyeux, dont la vie bascule après la mort de sa mère. Il se lie d’amitié avec deux enfants, Itsuki et Tae, ainsi qu’avec des Yo-kai comme Nekomata et Suu-san. Ensemble, ils partent à l’aventure pour récupérer les âmes des habitants du Japon, volées par le redoutable Yo-kai Tamamo no Mae, une renarde dévorant les âmes.",
+    "image": "Yo-kai_Watch_Forever_Friends.webp"
+  }
+]

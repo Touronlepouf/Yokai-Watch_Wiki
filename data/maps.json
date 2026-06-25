@@ -1,0 +1,191 @@
+[
+  {
+    "id": 1,
+    "name": "Hauts de Granval",
+    "world": "human",
+    "type": "quartier",
+    "game": "Yo-kai Watch 1",
+    "image": "Hauts_de_Granval.webp",
+    "description": "Quartier principale où le protagoniste vit. Ce quartier sera présent dans tous les autres opus majeurs de la série."
+  },
+  {
+    "id": 2,
+    "name": "Centre-ville de Granval",
+    "world": "human",
+    "type": "quartier",
+    "game": "Yo-kai Watch 1",
+    "image": "Centre-ville.webp",
+    "description": "Le centre-ville de Granval sur Mer est le quartier ayant une des plus grandes gares ferroviaires du jeu. Ce quartier est néanmoins connu pour les moments agaçants de gameplay avec Chaipô."
+  },
+  {
+    "id": 3,
+    "name": "Quartier des boutiques",
+    "world": "human",
+    "type": "quartier",
+    "game": "Yo-kai Watch 1",
+    "image": "Quartier_des_boutiques.webp",
+    "description": "Quartier commercial de Granval sur Mer, il est connu pour être le quartier où se trouve la boutique des beignets Bouffis et Farceur lors du deuxième opus de la saga."
+  },
+  {
+    "id": 4,
+    "name": "Côteau Fleuri",
+    "world": "human",
+    "type": "quartier",
+    "game": "Yo-kai Watch 1",
+    "image": "Coteau_Fleuri.webp",
+    "description": "Quartier de Granval sur Mer très calme, il accueil plusieurs espaces importants comme le magasin de vélo, le temple de la voie pour les fusions et la boutique Au'phil du temps pour améliorer le rang de sa yokai watch."
+  },
+  {
+    "id": 5,
+    "name": "La Corniche",
+    "world": "human",
+    "type": "quartier",
+    "game": "Yo-kai Watch 1",
+    "image": "Corniche.webp",
+    "description": "La Corniche est sans doute le quartier le plus moderne de Granval sur Mer. Il accueillera notamment une nouvelle zone à l'Est qui servira d'appartement pour la famille Célestin dans Yokai Watch 3. "
+  },
+  {
+    "id": 6,
+    "name": "Le Mont Sylvestre",
+    "world": "human",
+    "type": "quartier",
+    "game": "Yo-kai Watch 1",
+    "image": "Mont_Sylvestre.webp",
+    "description": "Le Mont Sylvestre est un espace montagneux au Nord de Granval sur Mer. Ce lieu est d'ailleurs le lieu de rencontre entre Nathan et Whisper dans le premier opus de la série. C'est aussi un lieu important pour pouvoir entrer dans le Yokai World via l'arbre sacrée."
+  },
+  {
+    "id": 7,
+    "name": "Le sanctuaire du Mont Sylvestre",
+    "world": "human",
+    "type": "quartier",
+    "game": "Yo-kai Watch 4",
+    "image": "Sanctuaire_de_mont_Sylvestre.webp",
+    "description": "Bien que c'est le même espace que les précédents jeu de la license, ici le sanctuaire du Mont Sylvestre est réduit au temple et à l'arbre sacré. Le reste de la zone est désormais inaccessibles et est remplacé par une zone de forêt."
+  },
+  {
+    "id": 8,
+    "name": "Le Vieux-Granval",
+    "world": "human",
+    "type": "ville",
+    "game": "Yo-kai Watch 2",
+    "image": "Vieux_Granval.webp",
+    "description": "Le Vieux-Granval est littéralement Granval sur Mer, mais 60 ans dans le passé. C'est un quartier très important pour l'histoire de la série, notamment pour les événements du deuxième opus de la saga. Le seul moyen de s'y rendre est de s'y téléporter via Triptic-Tac."
+  },
+  {
+    "id": 9,
+    "name": "Ourcival",
+    "world": "human",
+    "type": "village",
+    "game": "Yo-kai Watch 2",
+    "image": "Ourcival.webp",
+    "description": "Ourcival est le lieu de résidence de la famille paternelle de Nathan dans yokai watch 2. Une version 60 ans dans le passéest également disponible mais présente presque, voir aucun différence avec celle du présent."
+  },
+  {
+    "id": 10,
+    "name": "San Fantastico",
+    "world": "human",
+    "type": "village",
+    "game": "Yo-kai Watch 2",
+    "image": "San_Fantastico.webp",
+    "description": "San Fantastico est un lieu disponible grâce à la mécanique de train implantée dans Yokai Watch 2, néanmoins, mise à part un combat de boss et un donjon accessible que en post-game, cet endroit reste plutôt secondaire."
+  },
+  {
+    "id": 11,
+    "name": "Yokai World",
+    "world": "yokai",
+    "type": "quartier",
+    "game": "Yo-kai Watch 1",
+    "image": "Yo-kai_World.webp",
+    "description": "Même si le nom du lieu peut prêter à confusion, le Yokai World n'est pas un monde à part entière, mais plutôt une zone cachée dans le Mont Sylvestre. C'est un lieu très important pour l'histoire de la série, notamment pour les événements du premier opus de la saga. C'est aussi un lieu où il est possible de trouver des yokai rares et puissants."
+  },
+  {
+    "id": 12,
+    "name": "New Yorkai",
+    "world": "yokai",
+    "type": "ville",
+    "game": "Yo-kai Watch 3",
+    "image": "newyorkai.webp",
+    "description": "New Yorkai est une ville fictive inspirée de la ville de New York, présente dans Yo-kai Watch 3. Cette ville abrite La villa Enma, la tour Don Morleone et plein d'autres lieux importants pour l'histoire de la série."
+  },
+  {
+    "id": 13,
+    "name": "QG des Blasters",
+    "world": "yokai",
+    "type": "quartier",
+    "game": "Yo-kai Watch Blasters peloton du chat rouge/escadron du chien blanc",
+    "image": "Blaster.webp",
+    "description": "Le QG des Blasters est un lieu présent dans les jeux Yo-kai Watch Blasters peloton du chat rouge et escadron du chien blanc. C'est le lieu central de ces spin-off. D'ailleurs ce QG est au Sud du New Yorkai, ce qui laisse penser que les événements de ces jeux se déroulent avant ceux de Yo-kai Watch 3."
+  },
+  {
+    "id": 14,
+    "name": "New Yorkai (Futur)",
+    "world": "yokai",
+    "type": "ville",
+    "game": "Yo-kai Watch 4",
+    "image": "New_Yorkai_F.webp",
+    "description": "Ce New Yorkai est une version alternative de New Yorkai de Yokai Watch 3, celui-ci se passe 90 ans dans le futur. il fut présenté dans Yo-kai Watch 4 pour la première fois. Cette ville est très différente de la version originale, notamment grâce à l'implantation de la technologie dans la ville. C'est un lieu très important pour l'histoire de la série, notamment pour les événements du quatrième opus de la saga."
+  },
+  {
+    "id": 15,
+    "name": "New Yorkai (Passé)",
+    "world": "yokai",
+    "type": "ville",
+    "game": "Yo-kai Watch 4",
+    "image": "New_Yorkai_P.webp",
+    "description": "Ce New Yorkai est une version alternative de New Yorkai de Yokai Watch 3, celui-ci se passe dans les années 1950. D'ailleurs, ce lieu est en raccord avec le film Yokai Watch:Forever Friends, qui se passe lui aussi dans les années 1950. Durant cette période, c'est Enma Dai-Ō qui règne sur la ville, et non pas son fils Lord Enma."
+  },
+  {
+    "id": 16,
+    "name": "Palais Enma (Futur)",
+    "world": "yokai",
+    "type": "quartier",
+    "game": "Yo-kai Watch 4",
+    "image": "Ruined_Enma_Palace.webp",
+    "description": "Le Palais Enma nous fut présenté pour la première fois dans Yokai Watch 4, parfois ce palais est confondue avec la villa Enma qui se situe elle en centre-ville du New Yorkai. Au momment où nous arrivons sur les lieu le palais est contrôlé par Soranaki, Boss final du jeu."
+  },
+  {
+    "id": 17,
+    "name": "Yopple",
+    "world": "yokai",
+    "type": "quartier",
+    "game": "Yo-kai Watch 3",
+    "image": "Yopple.webp",
+    "description": "C'est l'usine de fabrication des montres yokai, elle est située à l'Est du New Yorkai. Après avoir obtenu la Yokai Watch Dream, ça sera en ces lieux que nous devrons augmenter son rang. "
+  },
+  {
+    "id": 18,
+    "name": "Electropolis",
+    "world": "human",
+    "type": "quartier",
+    "game": "Yo-kai Watch 3",
+    "image": "Electropolis.webp",
+    "description": "Electropolis est un quartier accessible uniquement dans le troisième jeu de la série. C'est dans ce quartier que la protagoniste, Ariane Célestin va créer son agence de détective avec l'aide d'Usapyon dans Yokai Watch 3."
+  },
+  {
+    "id": 19,
+    "name": "Cajoun",
+    "world": "human",
+    "type": "quartier",
+    "game": "Yo-kai Watch 3",
+    "image": "Cajoun.webp",
+    "description": "Cajoun est un quartier de la ville Pistachburg au USA. C'est d'ailleurs dans ce quartier que le protagoniste Nathan Adams va habiter dans yokai watch 3."
+  },
+  {
+    "id": 20,
+    "name": "Cawet",
+    "world": "human",
+    "type": "quartier",
+    "game": "Yo-kai Watch 3",
+    "image": "Cawet.webp",
+    "description": "Cawet est lui aussi un quartier de la ville Pistachburg au USA. Ce petit quartier possède toute son importance en raison de l'horloger M. Belleview qui augmentera le rang de la montre yokai watch model U. De plus, nous y retrouvons une église qui permettra les fusions yokai."
+  },
+  {
+    "id": 21,
+    "name": "Betel",
+    "world": "human",
+    "type": "quartier",
+    "game": "Yo-kai Watch 3",
+    "image": "Betel.webp",
+    "description": "Betel est lui le quartier qui sert de centre-ville à Pistachburg au USA. Mise à part le bingo-kai, cette zone n'apporte rien de si spécial hormis les quêtes secondaires."
+  }
+]

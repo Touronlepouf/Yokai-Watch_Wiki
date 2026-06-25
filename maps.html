@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+  <title>Cartes – Yo-kai Watch</title>
+  <link rel="stylesheet" href="css/maps.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+     <!-- MENU NAV (identique partout) -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+
+        <a class="navbar-brand" href="index.html">
+          <img src="images/yokai-logo.png" class="logo" alt="Yo-kai Watch">
+          Yo-kai Watch
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+      <!-- Menu -->
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+          <li class="nav-item"><a class="nav-link" href="yokai.html">Medallium </a></li>
+          <li class="nav-item"><a class="nav-link" href="jeux.html">Jeux</a></li>
+          <li class="nav-item"><a class="nav-link" href="anime.html">Animé</a></li>
+          <li class="nav-item"><a class="nav-link active" href="maps.html">Cartes</a></li>
+        </ul>
+
+        <!-- Réseaux + téléphone -->
+        <div class="d-flex align-items-center gap-3">
+          <a href="https://x.com/LEVEL5_times?lang=fr" class="text-white fs-5"><i class="bi bi-twitter"></i></a>
+          <a href="https://www.youtube.com/LEVEL5ch" class="text-white fs-5"><i class="bi bi-youtube"></i></a>
+        </div>
+
+      </div>
+
+      </div>
+    </nav>
+  </header> 
+<main>
+    <div class="page-title">
+  <img
+    src="images/ui/Vasco_de_Gamiaou.webp"
+    alt="Vasco de Gamiaou"
+    class="title-img">
+  <h1>Cartes de l'univers Yo-kai Watch</h1>
+</div>
+
+<div class="filters">
+  <button onclick="filterWorld('all')">Tous</button>
+  <button onclick="filterWorld('human')">Monde Humain</button>
+  <button onclick="filterWorld('yokai')">Monde Yo-kai</button>
+</div>
+
+<div id="map-container"></div>
+</main>
+
+<footer>
+  <p>© 2026 - Projet Yo-kai Watch</p>
+  <p>Site réalisé dans le cadre d’un projet web.</p>
+  <p>Site réalisé avec l'aide de Chatgpt.</p>
+</footer>
+
+    <script src="JS/maps.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+

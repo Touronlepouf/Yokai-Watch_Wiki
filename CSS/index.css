@@ -1,0 +1,116 @@
+/* LOGO NAVBAR */
+.logo {
+  width: 180px;
+  height: auto;
+  object-fit: contain;
+}
+.hero {
+  min-height: 70vh;
+  background: url("images/backgrounds/yokai-hero.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.hero-content {
+  background: rgba(0, 0, 0, 0.55);
+  padding: 40px;
+  border-radius: 15px;
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+}
+
+.hero-btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background: #ffcc00;
+  color: #000;
+  font-weight: bold;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+.hero-btn:hover {
+  background: #ffd633;
+}
+.presentation {
+  margin: 60px auto;
+  text-align: center;
+}
+
+.presentation h2 {
+  margin-bottom: 15px;
+  color: white;
+}
+
+.presentation p {
+  max-width: 800px;
+  margin: auto;
+  font-size: 1.1rem;
+  color: white;
+}
+.home-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin-bottom: 80px;
+}
+
+.home-card {
+  background: #f4f4f4;
+  border-radius: 15px;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.home-card:hover {
+  transform: translateY(-5px);
+}
+
+.home-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: contain;
+  background: #fff;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+
+.home-card a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #007bff;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background:
+    linear-gradient(
+      rgba(0,0,0,0.4),
+      rgba(0,0,0,0.4)
+    ),
+    url("../images/backgrounds/wallpaper.png") center / cover fixed no-repeat;
+}
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}
+

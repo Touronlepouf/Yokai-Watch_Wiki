@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medallium – Yo-kai Watch</title>
+    <link rel="stylesheet" href="CSS/yokai.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+  <header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+
+      <!-- Logo -->
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <img src="images/yokai-logo.png" alt="Yo-kai Watch" class="logo">
+        Yo-kai Watch
+      </a>
+
+      <!-- Bouton hamburger (mobile) -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Menu -->
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+          <li class="nav-item"><a class="nav-link active" href="yokai.html">Medallium </a></li>
+          <li class="nav-item"><a class="nav-link" href="jeux.html">Jeux</a></li>
+          <li class="nav-item"><a class="nav-link" href="anime.html">Animé</a></li>
+          <li class="nav-item"><a class="nav-link" href="maps.html">Cartes</a></li>
+        </ul>
+
+        <!-- Réseaux + téléphone -->
+        <div class="d-flex align-items-center gap-3">
+          <a href="https://x.com/LEVEL5_times?lang=fr" class="text-white fs-5"><i class="bi bi-twitter"></i></a>
+          <a href="https://www.youtube.com/LEVEL5ch" class="text-white fs-5"><i class="bi bi-youtube"></i></a>
+          <!-- <a href="tel:+33123456789" class="text-white text-decoration-none">
+            📞 01 23 45 67 89 -->
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </nav>
+</header>
+    <main>
+      <div id="loader">
+        <img src="images/ui/loading.gif" alt="Chargement..." />
+        <p>Chargement des Yo-kai...</p>
+      </div>
+<!-- BARRE DE RECHERCHE -->
+<div class="container my-4">
+  <input
+    id="search-input"
+    type="text"
+    class="form-control"
+    placeholder="Rechercher un Yo-kai..."
+  >
+</div>
+
+<!-- FILTRES PAR TRIBU -->
+<div class="container mb-4 text-center">
+  <div class="btn-group flex-wrap gap-2">
+
+    <button class="btn btn-outline-primary filter-btn active" data-tribe="all">
+      Tous
+    </button>
+
+<!--<button class="btn btn-outline-primary filter-btn active" data-tribe="all">
+  <img src="images/tribes/all.png" class="tribe-icon" alt="">
+  Tous
+</button>-->
+
+<button class="btn btn-outline-primary filter-btn" data-tribe="Vaillant">
+  <img src="images/tribes/vaillant.png" class="tribe-icon" alt="">
+  Vaillant
+</button>
+
+<button class="btn btn-outline-primary filter-btn" data-tribe="Costaud">
+  <img src="images/tribes/costaud.png" class="tribe-icon" alt="">
+  Costaud
+</button>
+
+<button class="btn btn-outline-primary filter-btn" data-tribe="Mignon">
+  <img src="images/tribes/mignon.png" class="tribe-icon" alt="">
+  Mignon
+</button>
+
+<button class="btn btn-outline-primary filter-btn" data-tribe="Sombre">
+  <img src="images/tribes/sombre.png" class="tribe-icon" alt="">
+  Sombre
+</button>
+
+<button class="btn btn-outline-primary filter-btn" data-tribe="Sinistre">
+  <img src="images/tribes/sinistre.png" class="tribe-icon" alt="">
+  Sinistre
+</button>
+
+<button class="btn btn-outline-primary filter-btn" data-tribe="Enma">
+  <img src="images/tribes/enma.png" class="tribe-icon" alt="">
+  Enma
+</button>
+
+<button class="btn btn-outline-primary filter-btn" data-tribe="Cyborg">
+  <img src="images/tribes/cyborg.png" class="tribe-icon" alt="">
+  Cyborg
+</button>
+
+<button class="btn btn-outline-primary filter-btn" data-tribe="Insaisissable">
+  <img src="images/tribes/insaisissable.png" class="tribe-icon" alt="">
+  Insaisissable
+</button>
+
+<button class="btn btn-outline-primary filter-btn" data-tribe="Bienveillant">
+  <img src="images/tribes/bienveillant.png" class="tribe-icon" alt="">
+  Bienveillant
+</button>
+
+<button class="btn btn-outline-primary filter-btn" data-tribe="Mystérieux">
+  <img src="images/tribes/mysterieux.png" class="tribe-icon" alt="">
+  Mystérieux
+</button>
+
+<button class="btn btn-outline-primary filter-btn" data-tribe="Perfide">
+  <img src="images/tribes/perfide.png" class="tribe-icon" alt="">
+  Perfide
+</button>
+
+<button class="btn btn-outline-primary filter-btn" data-tribe="Boss">
+  <img src="images/tribes/Boss.png" class="tribe-icon" alt="">
+  Boss
+</button>
+
+  </div>
+</div>
+
+<!-- filtres par rareté -->
+<div class="container mb-4 text-center">
+  <div class="btn-group flex-wrap gap-2">
+
+    <button class="btn btn-outline-warning rarity-btn active" data-rarity="all">
+      Toutes raretés
+    </button>
+
+    <button class="btn btn-outline-warning rarity-btn" data-rarity="rare">
+      Rare
+    </button>
+
+    <button class="btn btn-outline-warning rarity-btn" data-rarity="legendaire">
+      Légendaire
+    </button>
+
+    <button class="btn btn-outline-warning rarity-btn" data-rarity="mericain-legendaire">
+      Mericain-Légendaire
+    </button>
+
+    <button class="btn btn-outline-warning rarity-btn" data-rarity="tresor">
+      Trésor
+    </button>
+
+    <button class="btn btn-outline-warning rarity-btn" data-rarity="divinite">
+      Divinité
+    </button>
+
+  </div>
+</div>
+<!-- FILTRE PAR RANG -->
+<div class="container mb-4 text-center">
+  <div class="btn-group flex-wrap gap-2">
+
+    <button class="btn btn-outline-info rank-btn active" data-rank="all">
+      Tous rangs
+    </button>
+
+    <button class="btn btn-outline-info rank-btn" data-rank="E">E</button>
+    <button class="btn btn-outline-info rank-btn" data-rank="D">D</button>
+    <button class="btn btn-outline-info rank-btn" data-rank="C">C</button>
+    <button class="btn btn-outline-info rank-btn" data-rank="B">B</button>
+    <button class="btn btn-outline-info rank-btn" data-rank="A">A</button>
+    <button class="btn btn-outline-info rank-btn" data-rank="S">S</button>
+    <button class="btn btn-outline-info rank-btn" data-rank="SS">SS</button>
+    <button class="btn btn-outline-info rank-btn" data-rank="SSS">SSS</button>
+    <button class="btn btn-outline-info rank-btn" data-rank="Z">Z</button>
+    <button class="btn btn-outline-info rank-btn" data-rank="ZZ">ZZ</button>
+    <button class="btn btn-outline-info rank-btn" data-rank="ZZZ">ZZZ</button>
+    <button class="btn btn-outline-info rank-btn" data-rank="Uz">Uz</button>
+    <button class="btn btn-outline-info rank-btn" data-rank="Uz+">Uz+</button>
+
+  </div>
+</div>
+
+
+<!-- LISTE DES YO-KAI -->
+<div class="container">
+  <!-- COMPTEUR -->
+<div class="container text-center mb-3">
+  <h5 id="yokai-counter">
+    🔎 0 Yo-kai trouvés
+  </h5>
+</div>
+  <div id="yokai-list" class="row"></div>
+</div>
+    </main>
+   
+<footer>
+  <p>© 2026 - Projet Yo-kai Watch</p>
+  <p>Site réalisé dans le cadre d’un projet web.</p>
+  <p>Site réalisé avec l'aide de Chatgpt.</p>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="js/search.js" defer></script>
+</body>
+</html>
